@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Rasvan — Full-stack developer · demo projects</title>
+  <meta name="description" content="Full-stack developer (Node.js, React/Vue, PHP, Odoo, AI automation). Working demo projects with source code.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Freelance · remote</p>
+      <h1>Hi, I'm Rasvan — full-stack developer.</h1>
+      <p class="lead">
+        10+ years building web applications end to end: Node.js, React, Vue.js, TypeScript, PHP,
+        MySQL / SQL Server, Redis, WebSockets on Linux. Lately a lot of AI/LLM integration,
+        n8n automation and Odoo customisation.
+      </p>
+      <p class="lead">
+        Below are small <strong>demo projects I built myself</strong> so you can see real, working code
+        before hiring me. They are personal projects, not client work.
+      </p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section aria-labelledby="services">
+      <h2 id="services">What I can do for you</h2>
+      <ul class="grid services">
+        <li>
+          <h3>Web apps &amp; APIs</h3>
+          <p>Node.js / PHP back ends, React or Vue front ends, SQL databases, Redis caching, deployment on Linux.</p>
+        </li>
+        <li>
+          <h3>Real-time features</h3>
+          <p>WebSocket dashboards and live updates — I've built real-time apps used during live broadcasts.</p>
+        </li>
+        <li>
+          <h3>AI &amp; automation</h3>
+          <p>LLM integration into existing apps, n8n workflows, self-hosted AI agents that triage and act on data.</p>
+        </li>
+        <li>
+          <h3>Odoo</h3>
+          <p>Maintenance, custom modules, automations and integrations with third-party apps and shops.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="demos">
+      <h2 id="demos">Demo projects</h2>
+      <p class="muted">Each card links to the source code. New demos are added as they are finished.</p>
+      <ul class="grid demos">
+        <!--
+          One <li> per demo. Only mark a demo as live once the repo/demo really exists.
+          Live card example:
+          <li class="card">
+            <h3>Title</h3>
+            <p>What it does, in one or two sentences.</p>
+            <p class="tags"><span>n8n</span><span>OpenAI</span></p>
+            <p class="links"><a href="...">Live demo</a> <a href="...">Source code</a></p>
+          </li>
+        -->
+        <li class="card">
+          <h3>AI lead intake with n8n</h3>
+          <p>An incoming email is summarised, categorised and scored 0–10 by an LLM (with a draft reply),
+             saved to a table, and turned into a ready-to-send notification. Phishing and prompt-injection
+             attempts are scored down instead of obeyed.</p>
+          <p class="tags"><span>n8n</span><span>Gemini</span><span>Structured output</span></p>
+          <p class="links">
+            <a href="https://github.com/rg-devlab/n8n-ai-lead-intake/blob/main/docs/example-run.md">Example run</a>
+            <a href="https://github.com/rg-devlab/n8n-ai-lead-intake">Source code</a>
+          </p>
+        </li>
+        <li class="card pending">
+          <h3>Odoo: shop order import</h3>
+          <p>Custom Odoo module that imports orders from an online shop without creating duplicates,
+             and creates the invoice automatically once the order is paid.</p>
+          <p class="tags"><span>Odoo</span><span>Python</span><span>Integration</span></p>
+          <p class="status">In progress</p>
+        </li>
+        <li class="card pending">
+          <h3>Lead Hunter — a self-hosted job-finding bot</h3>
+          <p>A bot I run for myself: it collects project requests from several sources, lets an AI triage them,
+             drafts bids and filters the inbox. Write-up of how it works.</p>
+          <p class="tags"><span>Node.js</span><span>AI agents</span><span>Telegram</span></p>
+          <p class="status">Write-up in progress</p>
+        </li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="contact">
+      <h2 id="contact">Contact</h2>
+      <p>The easiest way to reach me is a message on the platform where you found this link.</p>
+    </section>
+  </main>
+
+  <footer class="wrap muted">
+    <p>All projects on this page are personal demo projects. No client names, data or code are used.</p>
+  </footer>
+</body>
+</html>
