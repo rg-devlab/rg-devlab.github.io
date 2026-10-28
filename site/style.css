@@ -56,3 +56,5 @@ h3 { font-size: 1.05rem; margin: 0 0 .4rem; }
 a { color: var(--accent); }
 
 footer { padding: 2.5rem 1.25rem 3rem; font-size: .9rem; border-top: 1px solid var(--line); margin-top: 2rem; }
+
+.demo-preview { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 6px; margin-bottom: .75rem; }
